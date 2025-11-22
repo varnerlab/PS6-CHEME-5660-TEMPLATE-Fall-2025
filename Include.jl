@@ -3,6 +3,7 @@ const _ROOT = @__DIR__;
 const _PATH_TO_SRC = joinpath(_ROOT, "src");
 const _PATH_TO_DATA = joinpath(_ROOT, "data");
 const _PATH_TO_FIGS = joinpath(_ROOT, "figs");
+const _PATH_TO_SIMS = joinpath(_ROOT, "sims");
 
 # make sure all is up to date -
 using Pkg
@@ -26,4 +27,5 @@ using JLD2
 using HypothesisTests
 using StatsPlots
 using LinearAlgebra
+using ProgressMeter
 using Test
